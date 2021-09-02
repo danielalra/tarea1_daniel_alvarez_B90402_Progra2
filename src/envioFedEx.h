@@ -6,12 +6,12 @@
 
 class EnvioFedEX : public Envio {
 
-    float kilogramos;
-    float kilometros;
+    double kilogramos;
+    double kilometros;
 
     public:
-        EnvioFedEX(float, float);
-        virtual float CalculoEnvio();
+        EnvioFedEX(double, double);
+        virtual double CalculoEnvio();
 
 };
 

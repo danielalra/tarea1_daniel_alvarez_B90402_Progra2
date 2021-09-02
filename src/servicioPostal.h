@@ -6,13 +6,13 @@
 
 class ServicioPostal : public Envio {
 
-    float kilogramos;
-    float kilometros;
+    double kilogramos;
+    double kilometros;
     int clase;
 
     public:
-        ServicioPostal(float, float, int);
-        virtual float CalculoEnvio(); 
+        ServicioPostal(double, double, int);
+        virtual double CalculoEnvio(); 
 };
 
 #endif

@@ -10,7 +10,7 @@ class Envio {
 
     public:
     ~Envio() {}
-    virtual float CalculoEnvio() = 0;  
+    virtual double CalculoEnvio() = 0;  
 };
 
 #endif
