@@ -5,9 +5,9 @@
 
 namespace {
 
-    TEST(ServicioPostalTests, ServicioPostal_CalculaEnvio_Test){
+    TEST(ServicioPostalTests, ServicioPostal_CalculoEnvio_Test){
         ServicioPostal*servicio1 =  new ServicioPostal(2,6,1);
         float costo = servicio1->CalculoEnvio();
-        EXPECT_EQ("1.17", costo);
+        EXPECT_EQ(1.17, costo);
     }
 }
