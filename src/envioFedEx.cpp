@@ -1,12 +1,12 @@
 #include "envioFedEx.h"
 #include <string>
 
-EnvioFedEX::EnvioFedEX(double kilometros, double kilogramos){
+EnvioFedEX::EnvioFedEX(float kilometros, float kilogramos){
     this->kilogramos=kilogramos;
     this->kilometros=kilometros;
 }
-double EnvioFedEX::CalculoEnvio(){
-    double costo = 20;
+float EnvioFedEX::CalculoEnvio(){
+    float costo = 20;
     if(kilometros>500){
         costo = costo + 5;
 

@@ -1,14 +1,14 @@
 #include "servicioPostal.h"
 #include <string>
 
-ServicioPostal::ServicioPostal(double kg, double km, int cl){
+ServicioPostal::ServicioPostal(float kg, float km, int cl){
     this->kilogramos=kg;
     this->kilometros=km;
     this->clase=cl;
 }
 
-double ServicioPostal::CalculoEnvio(){
-    double costo=0;
+float ServicioPostal::CalculoEnvio(){
+    float costo=0;
     if(kilogramos>=1 && kilogramos<=3){
         if(clase==1){
             costo=0.195*kilometros;
