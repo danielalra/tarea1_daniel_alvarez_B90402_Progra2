@@ -28,7 +28,7 @@ int main() {
         totalMontoEnvios += envio->CalculoEnvio();
     }
 
-    std::cout << "El total de los envios es de " << totalMontoEnvios << " colones" << std::endl;
+    std::cout << "El total de los envios es de " << totalMontoEnvios << std::endl;
 
     delete servicioPostal1;
     delete servicioPostal2;
